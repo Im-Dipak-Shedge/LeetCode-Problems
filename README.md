@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0058-length-of-last-word](https://github.com/Im-Dipak-Shedge/DSA-with-Cpp/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/Im-Dipak-Shedge/DSA-with-Cpp/tree/master/0067-add-binary) |
+| [0125-valid-palindrome](https://github.com/Im-Dipak-Shedge/DSA-with-Cpp/tree/master/0125-valid-palindrome) |
 ## Array
 |  |
 | ------- |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Im-Dipak-Shedge/DSA-with-Cpp/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/Im-Dipak-Shedge/DSA-with-Cpp/tree/master/0125-valid-palindrome) |
 ## Sorting
 |  |
 | ------- |
