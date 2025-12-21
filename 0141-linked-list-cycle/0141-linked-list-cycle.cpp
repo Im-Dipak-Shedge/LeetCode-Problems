@@ -11,16 +11,15 @@ public:
     bool hasCycle(ListNode* head) {
         if (!head)
             return false;
-
-        map< ListNode*, int> mp;
-        ListNode* temp = head;
-
-        while (temp != nullptr) {
-            mp[temp]++;
-            if (mp[temp] > 1)
-                return true;
-            temp = temp->next;
+        ListNode* slow=head;
+        ListNode* fast=head;
+        while(slow!=nullptr&& fast!=nullptr){
+            slow=slow->next;
+            if(fast->next==nullptr) return false;
+            fast=fast->next->next;
+            if(slow==fast) return true;
         }
+        
 
         return false;
     }
